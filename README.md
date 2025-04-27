@@ -27,6 +27,15 @@ including hidden files (those starting with `.`).
 - Shows hidden files (starting with `.`)
 - Simple and straightforward output
 
+### Installation
+
+You can install `mir` using Cargo:
+
+```bash
+# Install a specific version using a git tag
+cargo install --git https://github.com/fitiavana/mir --tag v1.0.0
+```
+
 ### Example Output
 
 ```bash
