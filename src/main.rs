@@ -1,4 +1,5 @@
 // SPDX-License-Identifier: Apache-2.0
+// Copyright 2025 Fitiavana Ramanandafy <hello@fitiavana.dev>
 
 use std::{fs, io::ErrorKind};
 
