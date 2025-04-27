@@ -41,10 +41,10 @@ target/
 
 ## Installation
 
-You can install `mir` using Cargo:
+You can install `mir` using Cargo, current stable version is `v1.0.1`.
 
 ```bash
-cargo install --git https://github.com/fitiavana07/mir.git --tag v1.0.0
+cargo install --git https://github.com/fitiavana07/mir.git --tag v1.0.1
 ```
 
 
@@ -63,7 +63,7 @@ cargo install --git https://github.com/fitiavana07/mir.git --tag v1.0.0
 - [x] 🛠️ Installable via `cargo install --git <repo-url>` and installation
   documentation in `README.md`, allowing to specify a git tag
 - [x] 🔓 Make the repository public
-- [ ] 🏷️ Create `v1.0.0` git tag
+- [x] 🏷️ Create `v1.0.0` git tag
 
 ## License
 
