@@ -1,11 +1,16 @@
-use std::fs;
+use std::{fs, io::ErrorKind};
 
 fn main() {
     // Get the current directory
     let current_dir = match std::env::current_dir() {
         Ok(dir) => dir,
         Err(e) => {
-            eprintln!("Error: Could not access current directory: {}", e);
+            match e.kind() {
+                ErrorKind::NotFound => {
+                    eprintln!("Error: directory not found, it may have been deleted")
+                }
+                _ => eprintln!("Error: Could not access current directory: {}", e),
+            };
             std::process::exit(1);
         }
     };
@@ -14,7 +19,10 @@ fn main() {
     let entries = match fs::read_dir(&current_dir) {
         Ok(entries) => entries,
         Err(e) => {
-            eprintln!("Error: Could not read directory: {}", e);
+            match e.kind() {
+                ErrorKind::PermissionDenied => eprintln!("Error: permission denied"),
+                _ => eprintln!("Error: Could not read directory: {}", e),
+            }
             std::process::exit(1);
         }
     };
