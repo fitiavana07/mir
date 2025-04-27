@@ -44,7 +44,6 @@ target/
 You can install `mir` using Cargo:
 
 ```bash
-# Install a specific version using a git tag
 cargo install --git https://github.com/fitiavana07/mir.git --tag v1.0.0
 ```
 
