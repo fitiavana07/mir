@@ -45,7 +45,7 @@ You can install `mir` using Cargo:
 
 ```bash
 # Install a specific version using a git tag
-cargo install --git https://github.com/fitiavana/mir --tag v1.0.0
+cargo install --git https://github.com/fitiavana07/mir.git --tag v0.1.0
 ```
 
 
