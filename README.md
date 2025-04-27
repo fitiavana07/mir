@@ -42,8 +42,8 @@ target/
 ### v1.0.0 checklist
 
 - [x] 📄 Add usage documentation in `README.md`
-- [ ] 📂 List all files and directories in the current directory, including hidden ones (starting with `.`)
-- [ ] 📂 Distinguish directories by suffixing `/`
+- [x] 📂 List all files and directories in the current directory, including hidden ones (starting with `.`)
+- [x] 📂 Distinguish directories by suffixing `/`
 - [ ] ⚠️ Gracefully handle edge cases:
   - [ ] Directory not found (e.g. deleted)
   - [ ] Permission denied
