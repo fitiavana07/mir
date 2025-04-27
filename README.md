@@ -61,9 +61,9 @@ cargo install --git https://github.com/fitiavana/mir --tag v1.0.0
   - [x] Large number of files
   - [x] Filenames with non-ASCII characters (UTF-8 support)
 
-- [ ] 🛠️ Installable via `cargo install --git <repo-url>` and installation
+- [x] 🛠️ Installable via `cargo install --git <repo-url>` and installation
   documentation in `README.md`, allowing to specify a git tag
-- [ ] 🔓 Make the repository public
+- [x] 🔓 Make the repository public
 - [ ] 🏷️ Create `v1.0.0` git tag
 
 ## License
