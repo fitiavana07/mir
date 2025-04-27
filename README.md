@@ -54,3 +54,7 @@ target/
 - [ ] 🛠️ Installable via `cargo install --git <repo-url>` and installation documentation in `README.md`
 - [ ] 🔓 Make the repository public
 - [ ] 🏷️ Create `v1.0.0` git tag
+
+## License
+
+This project is licensed under the Apache License 2.0 - see the [LICENSE](LICENSE) file for details.
